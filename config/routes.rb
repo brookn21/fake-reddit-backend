@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   post '/login', to: 'sessions#create'
+  post '/profile',  to: 'users#profile'
 end
 
